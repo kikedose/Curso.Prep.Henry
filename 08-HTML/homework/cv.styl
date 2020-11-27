@@ -1,0 +1,130 @@
+
+*
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+
+html
+  scroll-behavior: smooth
+  font-size: 1em
+
+// Colors
+
+primary = #00ffa2
+primary-light = #c7ffeb
+secondary = #004466
+
+// General Setings
+
+body
+  background: primary
+  color: secondary
+  font-family: 'Open Sans', sans-serif
+
+section
+  min-height: 50vh
+  width: 100%
+  padding: 2rem 1.4rem 1.4rem 1.4rem
+
+  ul
+    //list-style: none
+
+  a
+    text-decoration: underline
+    color: secondary
+
+  p
+    line-height: 1.5rem
+    margin-bottom: 1em
+
+// Paragraph Styles
+
+h1, h2, h3, h4, h5, h6
+  font-family: 'Roboto', sans-serif
+
+h1
+  font-size: 2.5rem
+  font-weight: 800;
+
+h2
+  font-size: 1.8rem
+  font-weight: 200
+  text-transform: uppercase
+  letter-spacing: 0.2rem
+  margin: 1.2rem 0
+
+h3
+  font-size: 1.5rem
+  font-weight: 400
+  margin-bottom: 2rem
+  &:before
+    content: "--  "
+
+h4
+  font-size: 1.2rem
+  font-weight: 200
+
+h5
+  font-size: 1rem;
+  margin: 0.5rem 0
+
+
+// INTRO STYLES
+
+#myself
+  & img
+    width: 200px
+    height: 200px
+
+
+.intro
+  margin: 1.2rem 0
+  font-weight: 600
+  padding-right: 1rem
+  //background-color: rgba(255, 255, 255, 0.5)
+
+.list-contact
+  margin: 1.2rem 0
+  list-style: none
+  & li
+    font-size: 0.8rem
+    margin: 0.2rem 0 0.2rem 1rem
+
+// REST OF STYLES
+
+#education, #work, #skills, #hobbies
+  background: primary-light
+  & p
+    font-size: 0.9rem
+  & ul
+    margin-left: 2em
+
+#whyHenry
+  background: secondary
+  color: primary-light
+
+
+// Larger Screens
+
+@media only screen and (min-width: 850px)
+
+  html
+    font-size: 1.2em
+
+  section
+    padding: 2rem 2rem 1rem 3rem
+
+  p
+    max-width: 60%
+
+  #myself h2
+    float: left
+    max-width: 35%
+
+  .list-contact
+    float: right
+
+  .intro
+    float: right
+    max-width: 35%
+    border-right: solid 1px secondary

@@ -1,0 +1,34 @@
+######################
+#### DEFINICIONES ####
+######################
+
+
+- VARIABLES:
+
+  Son elementos que asumen cualquier valor que se les asigne.
+  La variable tiene que ser definida con un nombre de por lo menos un carácter.
+
+
+- STRINGS:
+
+  Son conjuntos de caracteres que representan puntualmente texto.
+  Se definen escribiéndolos entre comillas.
+
+
+- FUNCIONES:
+
+  Son herramientas que ejecutan acciones cuando se les llama. Dichas acciones tienen que ser definidas.
+  Las acciones pueden ser operaciones matemáticas, comparaciones, retornar strings, entre otros.
+  Las funciones pueden ser definidas en función de variables, como una función matemática, con una sintaxis análoga.
+
+
+- IF, ELSE, ELSE IF
+
+  Marcan una acción que será ejecutada sólo si se cumple con las condiciones preestablecidas.
+  Es decir, la función, operación, etc será ejecutada si se cumple con los requisitos estipulados.
+
+
+- BOOLEANOS TRUE, FALSE
+
+  Son valores que representan la veracidad lógica de una declaración:
+  por ejemplo si declaro que "uno" es igual a "dos", o que 1 es igual a 2, es falso tanto como string como matemáticamente.

@@ -1,0 +1,22 @@
+
+.divClass h1 {
+  color: #004466;
+}
+
+#thirdDiv {
+  width: 500px;
+  height: 600px;
+  background: #00ffa2;
+  padding: 50px;
+  border: solid 5px #004466;
+  overflow: hidden;
+}
+
+#thirdDiv img {
+  width: 400px;
+}
+
+#spanId {
+  font-size: 18px;
+  margin: 50px;
+}

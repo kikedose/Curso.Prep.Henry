@@ -1,0 +1,27 @@
+######################
+#### DEFINICIONES ####
+######################
+
+
+- FOR:
+
+  Es un bucle que permite generar recurrencia en función de una variable y condiciones preestablecidas.
+  En su sintaxis se tiene que declarar una variable, una condición que se repetirá hasta que sea 'false', y un incremento de la variable.
+
+
+- &&:
+
+  Es un operador lógico que significa "AND". Cuando se establecen condiciones, estipula que el bloque de código se ejecutará
+  sí y sólo sí la totalidad de las condicines se cumplen.
+
+
+- ||:
+
+  Es un operador lógico que significa "OR". Cuando se establecen condiciones, estipula que el bloque de código se ejecutará
+  sí alguna de las condicines se cumplen.
+
+
+- !:
+
+  Es un operador lógico que significa "NOT". Devuelve lo inverso de lo estipulado. Puede ser lo inverso de un operador matemático, lógico
+  o booleano. Por ejeplo !true es false, 0 !== 2 es true, etc.
